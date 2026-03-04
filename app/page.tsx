@@ -50,15 +50,6 @@ const EXPERIENCE = [
     ],
   },
   {
-    company: "Reality AI Labs",
-    role: "AI Software Engineer",
-    period: "Dec 2024 – Apr 2025",
-    bullets: [
-      "Implemented pipelines for preprocessing, validating, and analyzing model I/O.",
-      "Analyzed model behaviour to improve robustness, correctness, and reliability.",
-    ],
-  },
-  {
     company: "SuperProf",
     role: "Computer Science Tutor",
     period: "Apr 2025 – Aug 2025",
