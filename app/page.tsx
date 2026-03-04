@@ -104,7 +104,7 @@ const PROJECTS: { name: string; tech: string; date: string; github: string; desc
 ];
 
 const SKILLS: Record<string, string[]> = {
-  languages:  ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS", "Rust"],
+  languages:  ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS"],
   frameworks: ["FastAPI", "Flask", "React.js", "Next.js", "Node.js", "TensorFlow", "Keras", "Scikit-learn", "Tailwind CSS"],
   tools:      ["Git", "Docker", "Linux", "AWS", "GCP", "VS Code", "IntelliJ"],
 };
@@ -203,6 +203,23 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+        <ul style={s.bullets}>
+          <li style={s.bHead} className="anim d3">
+            <span style={s.bDiamond}>◆</span>
+            <span style={{ fontStyle: "italic", color: "var(--text-muted)" }}>get to know me:</span>
+          </li>
+          <li style={s.bIndent} className="anim d4">
+            <span style={s.bArrow}>↳</span><span>second year <strong style={{ color: "var(--text-primary)" }}>cs major</strong> with math minor & cybersecurity specialization </span>
+          </li>
+          <li style={s.bIndent} className="anim d4">
+            <span style={s.bArrow}>↳</span><span>interested in <strong style={{ color: "var(--text-primary)" }}>machine learning, research, networks</strong> and <strong style={{ color: "var(--text-primary)" }}>full-stack development</strong></span>
+          </li>
+          <li style={s.bIndent} className="anim d4">
+            <span style={s.bArrow}>↳</span><span>didn't start coding when i was 4, but doing my best at it</span>
+          </li>
+          </ul>
+          <br></br>
 
         <ul style={s.bullets}>
           <li style={s.bHead} className="anim d3">
