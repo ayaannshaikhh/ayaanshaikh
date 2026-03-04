@@ -7,3 +7,7 @@
     https://www.ayaanshaikh.ca<br>
     <sub>Built using Next.js and Tailwind CSS</sub>
 </div>
+
+## 💌 https://valentine.ayaanshaikh.ca
+> A simple Minecraft-themed Valentine's Day card generator built with HTML, CSS, and JavaScript.<br>
+> View the repository [here](https://github.com/ayaannshaikhh/mc-valentine-card).
