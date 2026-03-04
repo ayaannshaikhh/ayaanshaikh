@@ -8,6 +8,6 @@
     <sub>Built using Next.js and Tailwind CSS</sub>
 </div>
 
-## 💌 https://valentine.ayaanshaikh.ca
+## <img alt="Heart" src="https://cdn.discordapp.com/emojis/1051583697855451227.webp?size=240" width="30"/> https://valentine.ayaanshaikh.ca
 > A simple Minecraft-themed Valentine's Day card generator built with HTML, CSS, and JavaScript.<br>
 > View the repository [here](https://github.com/ayaannshaikhh/mc-valentine-card).
