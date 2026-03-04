@@ -200,7 +200,6 @@ export default function Home() {
             <h1 style={s.heroName}>Ayaan Shaikh</h1>
             <p style={s.heroSub}>
               CS <span style={{ color: "var(--accent)" }}>@</span> University of Guelph
-              <span style={{ color: "var(--text-muted)" }}> · GPA 3.70</span>
             </p>
           </div>
         </div>
