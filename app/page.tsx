@@ -215,8 +215,14 @@ export default function Home() {
           <li style={s.bIndent} className="anim d5">
             <span style={s.bArrow}>↳</span><span>shipped <strong><a href="#projects" className="link-accent">Bloomfund</a></strong> — AI-powered scholarship matcher using Anthropic Claude</span>
           </li>
-          <li style={s.bIndent} className="anim d6">
-            <span style={s.bArrow}>↳</span><span>trained a <strong style={{ color: "var(--text-primary)" }}>CNN for brain tumor detection</strong> — 95% accuracy on 3k+ MRI scans</span>
+          <li style={s.bIndent} className="anim d5">
+            <span style={s.bArrow}>↳</span><span>shipped <strong><a href="https://github.com/ayaannshaikhh/devlens" className="link-accent">DevLens</a></strong> — GitHub repository analyzer to provide feedback and insights</span>
+          </li>
+          <li style={s.bIndent} className="anim d5">
+            <span style={s.bArrow}>↳</span><span>shipped <strong><a href="#projects" className="link-accent">Diagnosica</a></strong> — CNN for brain tumor detection with 95% accuracy on 3k+ MRI scans</span>
+          </li>
+          <li style={s.bIndent} className="anim d5">
+            <span style={s.bArrow}>↳</span><span>created a <strong style={{ color: "var(--text-primary)" }}>CLI project management tool</strong> to perform CRUD operations</span>
           </li>
 
         </ul>
