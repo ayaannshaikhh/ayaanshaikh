@@ -199,7 +199,7 @@ export default function Home() {
           <div>
             <h1 style={s.heroName}>Ayaan Shaikh</h1>
             <p style={s.heroSub}>
-              CS <span style={{ color: "var(--accent)" }}>@</span> University of Guelph
+              CS + Math <span style={{ color: "var(--accent)" }}>@</span> University of Guelph
             </p>
           </div>
         </div>
