@@ -216,10 +216,10 @@ export default function Home() {
             <span style={s.bArrow}>↳</span><span>interested in <strong style={{ color: "var(--text-primary)" }}>machine learning, research, networks</strong> and <strong style={{ color: "var(--text-primary)" }}>full-stack development</strong></span>
           </li>
           <li style={s.bIndent} className="anim d4">
-            <span style={s.bArrow}>↳</span><span>didn't start coding when i was 4, but doing my best at it</span>
+            <span style={s.bArrow}>↳</span><span>didn&apos;t start coding when i was 4, but doing my best at it</span>
           </li>
-          </ul>
-          <br></br>
+        </ul>
+        <br />
 
         <ul style={s.bullets}>
           <li style={s.bHead} className="anim d3">
@@ -241,7 +241,6 @@ export default function Home() {
           <li style={s.bIndent} className="anim d5">
             <span style={s.bArrow}>↳</span><span>created a <strong style={{ color: "var(--text-primary)" }}>CLI project management tool</strong> to perform CRUD operations</span>
           </li>
-
         </ul>
       </section>
 
@@ -341,6 +340,35 @@ export default function Home() {
             >{link.icon}</a>
           ))}
         </div>
+
+        {/* Webring */}
+        <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <a
+            href="https://www.uguelph.network/#ayaanshaikh.ca?nav=prev"
+            style={{ color: "var(--text-muted)", fontSize: 13, lineHeight: 1, transition: "color 0.15s" }}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--accent)")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--text-muted)")}
+          >←</a>
+          <a href="https://www.uguelph.network" target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/gryphon.png"
+              alt="Guelph Webring"
+              width={24}
+              height={24}
+              style={{ opacity: 0.5, transition: "opacity 0.15s" }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.opacity = "1")}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.opacity = "0.5")}
+            />
+          </a>
+          <a
+            href="https://www.uguelph.network/#ayaanshaikh.ca?nav=next"
+            style={{ color: "var(--text-muted)", fontSize: 13, lineHeight: 1, transition: "color 0.15s" }}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--accent)")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--text-muted)")}
+          >→</a>
+        </div>
+
         <span style={s.ftCopy}>2026 © Ayaan Shaikh</span>
       </footer>
 
