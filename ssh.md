@@ -8,6 +8,7 @@
 # Initial Setup
 1. Understand how you would want users to remotely connect to your VPS to be able to see your portfolio
 > In my case, I used the domain `ssh.ayaanshaikh.ca` and set up a DNS record on Cloudflare
+>
 > Use the IPv4 address provided by the VPS in the DNS record
 2. Convert your portfolio into a .js file (I used Claude to do this)
 > Add the following line on the top of the .js file:
