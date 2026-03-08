@@ -20,3 +20,9 @@ ssh portfolio@ssh.ayaanshaikh.ca
 ## <img alt="Phone" src="https://cdn.discordapp.com/emojis/961528984049434634.png" width="30"/> https://camo.ayaanshaikh.ca
 > A lightweight image proxy that retrieves images from Imgur and caches them locally for reliable access.<br>
 > View the repository [here](https://github.com/ayaannshaikhh/camo).
+
+## <img alt="Crab" src="https://cdn.discordapp.com/emojis/958961348967010324.png" width="30"/> https://diagnosica.ayaanshaikh.ca
+> A medical image diagnosis assistant focused on brain tumor detection using deep learning.<br>
+> View the repository [here](https://github.com/ayaannshaikhh/diagnosica).
+
+
