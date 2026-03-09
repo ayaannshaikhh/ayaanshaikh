@@ -81,6 +81,13 @@ const EXPERIENCE = [
 
 const PROJECTS: { name: string; tech: string; date: string; github: string; description: string }[] = [
   {
+    name: "Camo",
+    tech: "Node.js · TypeScript · Fastify · Nginx",
+    date: "Mar 2026",
+    github: "https://github.com/ayaannshaikhh/camo",
+    description: "A lightweight image proxy that retrieves images from Imgur and caches them locally for reliable access.",
+  },
+  {
     name: "Aegis",
     tech: "Python · NumPy · Scapy · scikit-learn",
     date: "Dec 2025",
@@ -89,14 +96,14 @@ const PROJECTS: { name: string; tech: string; date: string; github: string; desc
   },
   {
     name: "Bloomfund",
-    tech: "Python · FastAPI · PostgreSQL · Anthropic Claude",
+    tech: "Python · FastAPI · PostgreSQL · Supabase · Anthropic Claude",
     date: "Nov 2025",
     github: "https://github.com/ayaannshaikhh/bloomfund",
     description: "FastAPI backend powering personalized scholarship recommendations — processes user profiles, queries PostgreSQL, returns relevance-ranked results with keyword search and smart filtering.",
   },
   {
     name: "Diagnosica",
-    tech: "Python · Flask · TensorFlow · Keras",
+    tech: "Python · Flask · TensorFlow · Keras · NumPy · Pillow",
     date: "May 2025",
     github: "https://github.com/ayaannshaikhh/diagnosica",
     description: "CNN for brain tumor detection achieving 95% accuracy on 3,000+ labeled MRI scans. Full ML pipeline: preprocessing, normalization, augmentation, training, and evaluation.",
@@ -104,7 +111,7 @@ const PROJECTS: { name: string; tech: string; date: string; github: string; desc
 ];
 
 const SKILLS: Record<string, string[]> = {
-  languages:  ["Python", "Java", "C", "C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS"],
+  languages:  ["Python", "Java", "C", "JavaScript", "TypeScript", "SQL", "HTML/CSS"],
   frameworks: ["FastAPI", "Flask", "React.js", "Next.js", "Node.js", "TensorFlow", "Keras", "Scikit-learn", "Tailwind CSS"],
   tools:      ["Git", "Docker", "Linux", "AWS", "GCP", "VS Code", "IntelliJ"],
 };
